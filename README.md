@@ -37,7 +37,7 @@ create html of suitable forms.
 Publish the website in the given URL.
 
 ## PROGRAM :
-```
+```html css
 <html>
 <head>
 <meta charset='utf-8'>
