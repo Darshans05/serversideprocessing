@@ -111,5 +111,5 @@ Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/
 
 
 ## Result:
-an website to perform mathematical calculations on the server side is successfully completed.
+An website to perform mathematical calculations on the server side is successfully completed.
 
