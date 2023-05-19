@@ -42,7 +42,7 @@ Publish the website in the given URL.
 <head>
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-<title>Area of Rectangle</title>
+<title>Area of Triangle</title>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <style type="text/css">
 body 
@@ -81,14 +81,14 @@ padding-top: 20px;
 <body>
 <div class="edge">
 <div class="box">
-<h1>Area of a Rectangle</h1>
+<h1>Area of a Triangle</h1>
 <form method="POST">
 {% csrf_token %}
 <div class="formelt">
-Length : <input type="text" name="length" value="{{l}}"></input>(in m)<br/>
+height : <input type="text" name="height" value="{{h}}"></input>(in m)<br/>
 </div>
 <div class="formelt">
-Breadth : <input type="text" name="breadth" value="{{b}}"></input>(in m)<br/>
+base : <input type="text" name="base" value="{{b}}"></input>(in m)<br/>
 </div>
 <div class="formelt">
 <input type="submit" value="Calculate"></input><br/>
@@ -104,11 +104,10 @@ Area : <input type="text" name="area" value="{{area}}"></input>m<sup>2</sup><br/
 ```
 
 ## OUTPUT:
-![Screenshot 2023-05-17 093459](https://github.com/Darshans05/serversideprocessing/assets/115534676/af118e8e-2b47-4379-b233-a543ee12ede8)
+![ssp(output)](https://github.com/Darshans05/serversideprocessing/assets/115534676/d0851409-5b33-415c-b5e9-23f21ceee751)
 
 ### Home Page:
-![Screenshot 2023-05-17 093541](https://github.com/Darshans05/serversideprocessing/assets/115534676/b702525a-9abb-4f48-b969-3a8cea55f5d2)
-
+![ssp(server output)](https://github.com/Darshans05/serversideprocessing/assets/115534676/13309ab0-6e02-40d3-8196-bc9e313a23db)
 
 ## Result:
 An website to perform mathematical calculations on the server side is successfully completed.
